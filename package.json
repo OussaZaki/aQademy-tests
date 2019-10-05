@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "git@github.com:OussaZaki/aQademy-tests.git",
   "author": "Oussama Zaki <oussama.zaki@klarna.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "mocha": "^6.2.1"
+  }
 }
