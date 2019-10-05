@@ -8,4 +8,11 @@ describe('Tests for my add function', function () {
 
         assert.equal(result, expectedResult);
     })
+
+    it('should concatenate the inputs if they are strings', function() {
+        var result = add("hello", "me");
+        var expectedResult = "hellome";
+
+        assert.equal(result, expectedResult);
+    })
 })
